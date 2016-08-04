@@ -1,6 +1,6 @@
 {
   "name": "ez-async",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Yet another async library using generators",
   "main": "./dist/ez-async.cjs.js",
   "scripts": {
@@ -10,6 +10,9 @@
     "build:watch": "ez-build-lib build:watch ./dist/ez-async.cjs.js",
     "publish": "npm run build && npm run lint && ez-build-lib publish ."
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ez-tools/ez-async.git"
