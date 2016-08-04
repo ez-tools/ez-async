@@ -5,7 +5,7 @@ This library aims to be compatible to promises and node style callbacks.
 
 Note: Node style callbacks accept two parameters `function cb (error, result) {..}`. 
 
-##### Handle Promises
+### Handle Promises
 
 ```
 var f = async(function * (getCallback, arg1, arg2 /*, arg3, ..*/) {
@@ -20,7 +20,7 @@ var f = async(function * (getCallback, arg1, arg2 /*, arg3, ..*/) {
 f(arg1, arg2).then(..)
 ```
 
-##### Handle node style callbacks
+### Handle node style callbacks
 
 ```
 var fs = require('fs')
